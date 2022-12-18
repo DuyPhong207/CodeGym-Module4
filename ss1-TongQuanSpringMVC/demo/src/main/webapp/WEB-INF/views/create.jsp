@@ -15,7 +15,7 @@
 <body>
 <center>
     <h2>
-        <a href="/product?action=list">List All Product</a>
+        <a href="/product/list">List All Product</a>
     </h2>
 </center>
 <div align="center">
