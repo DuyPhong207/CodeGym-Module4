@@ -1,8 +1,8 @@
 package com.example.controller;
 
-import com.example.model.Product;
-import com.example.service.ProductService;
-import com.example.service.impl.ProductServiceImpl;
+import com.example.model.Customer;
+import com.example.service.CustomerService;
+import com.example.service.impl.CustomerServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,61 +14,61 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import java.util.List;
 
 @Controller
-@RequestMapping("/product")
-public class ProductController {
-    private final ProductService productService = new ProductServiceImpl();
+@RequestMapping("/customer")
+public class CustomerController {
+    private final CustomerService customerService = new CustomerServiceImpl();
 
     @GetMapping("")
     public String index(Model model) {
 
-        List<Product> productList = productService.findAll();
-        model.addAttribute("products", productList);
+        List<Customer> customerList = customerService.findAll();
+        model.addAttribute("customers", customerList);
         return "/index";
     }
 
     @GetMapping("/create")
     public String create(Model model) {
-        model.addAttribute("product", new Product());
+        model.addAttribute("customer", new Customer());
         return "/create";
     }
 
     @PostMapping("/save")
-    public String save(Product product, RedirectAttributes redirectAttributes) {
-        product.setId((int) (Math.random() * 10000));
-        productService.save(product);
+    public String save(Customer customer, RedirectAttributes redirectAttributes) {
+        customer.setId((int) (Math.random() * 10000));
+        customerService.save(customer);
         redirectAttributes.addFlashAttribute("success", "Create customer successfully!");
         return "redirect:/customer";
     }
 
     @GetMapping("/{id}/edit")
     public String edit(@PathVariable int id, Model model) {
-        model.addAttribute("product", productService.findById(id));
+        model.addAttribute("customer", customerService.findById(id));
         return "/edit";
     }
 
     @PostMapping("/update")
-    public String update(Product product, RedirectAttributes redirectAttributes) {
-        productService.update(product.getId(), product);
+    public String update(Customer customer, RedirectAttributes redirectAttributes) {
+        customerService.update(customer.getId(), customer);
         redirectAttributes.addFlashAttribute("success", "Update customer successfully!");
         return "redirect:/customer";
     }
 
     @GetMapping("/{id}/delete")
     public String delete(@PathVariable int id, Model model) {
-        model.addAttribute("product", productService.findById(id));
+        model.addAttribute("customer", customerService.findById(id));
         return "/delete";
     }
 
     @PostMapping("/delete")
-    public String delete(Product product, RedirectAttributes redirect) {
-        productService.remove(product.getId());
+    public String delete(Customer customer, RedirectAttributes redirect) {
+        customerService.remove(customer.getId());
         redirect.addFlashAttribute("success", "Removed customer successfully!");
-        return "redirect:/product";
+        return "redirect:/customer";
     }
 
     @GetMapping("/{id}/view")
     public String view(@PathVariable int id, Model model) {
-        model.addAttribute("product", productService.findById(id));
+        model.addAttribute("customer", customerService.findById(id));
         return "/view";
     }
 }

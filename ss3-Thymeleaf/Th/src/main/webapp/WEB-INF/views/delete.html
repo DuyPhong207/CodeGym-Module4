@@ -5,11 +5,11 @@
 <h3>Remove Customer</h3>
 <p>
     <a th:href="@{/customer}">
-        Back to product list
+        Back to customer list
     </a>
 </p>
 <div id="form">
-    <form action="#" th:action="@{/product/delete}" th:object="${product}"
+    <form action="#" th:action="@{/customer/delete}" th:object="${customer}"
           method="POST" novalidate="novalidate">
         <input type="hidden" th:field="*{id}"/>
         <div>
@@ -17,16 +17,12 @@
             <input type="text" th:field="*{name}"/>
         </div>
         <div>
-            <label>Price</label>
-            <input type="email" th:field="*{price}"/>
+            <label>Email</label>
+            <input type="email" th:field="*{email}"/>
         </div>
         <div>
-            <label>Description</label>
-            <input type="text" th:field="*{desc}"/>
-        </div>
-        <div>
-            <label>Manufacture</label>
-            <input type="text" th:field="*{manufacture}"/>
+            <label>Address</label>
+            <input type="text" th:field="*{address}"/>
         </div>
         <input type="submit" value="Remove"/>
     </form>
