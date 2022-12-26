@@ -8,7 +8,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class DictionaryController {
-    Dictionary dictionary = new Dictionary();
+    private Dictionary dictionary = new Dictionary();
     @GetMapping("search")
     public String showForm() {
         return "/home";
