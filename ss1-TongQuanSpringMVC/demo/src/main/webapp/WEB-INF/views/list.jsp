@@ -19,7 +19,7 @@
     </div>
 
     <div class="header-name">
-        <h3>Trinh Duy Phong</h3>
+<%--        <h3>Trinh Duy Phong</h3>--%>
     </div>
 </div>
 
@@ -92,7 +92,7 @@
     #header .header-logo {
         height: 100px;
         width: 124px;
-        background: url(https://zoukclub.com/wp-content/uploads/2019/11/Furama-Riverfront-Logo.png) top center / cover no-repeat;
+        /*background: url(https://zoukclub.com/wp-content/uploads/2019/11/Furama-Riverfront-Logo.png) top center / cover no-repeat;*/
         margin-left: 24px;
     }
 

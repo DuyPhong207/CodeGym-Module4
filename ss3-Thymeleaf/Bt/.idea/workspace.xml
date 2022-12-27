@@ -5,67 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="074d4c99-9a06-43dd-9f5c-8db6fae9c284" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Th/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/src/main/java/com/example/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/src/main/java/com/example/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/src/main/java/com/example/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/src/main/java/com/example/model/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt2/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/java/com/example/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/java/com/example/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/java/com/example/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/java/com/example/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/java/com/example/model/ProductForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/java/com/example/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/java/com/example/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/ThucHanhUploadFile/src/main/webapp/WEB-INF/views.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/src/main/java/com/example/service/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/Bt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/Bt2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/demo/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/demo/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/src/main/java/com/example/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/src/main/java/com/example/controller/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/impl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/test/java/com/mysql/jdbc/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/test/java/com/mysql/jdbc/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +190,13 @@
       <workItem from="1672002611461" duration="40000" />
       <workItem from="1672002661927" duration="160000" />
       <workItem from="1672002837313" duration="18000" />
-      <workItem from="1672002865674" duration="1383000" />
+      <workItem from="1672002865674" duration="2727000" />
+      <workItem from="1672051085536" duration="167000" />
+      <workItem from="1672053392309" duration="17000" />
+      <workItem from="1672053597435" duration="21000" />
+      <workItem from="1672062324044" duration="64000" />
+      <workItem from="1672062434335" duration="95000" />
+      <workItem from="1672152643856" duration="16000" />
     </task>
     <servers />
   </component>

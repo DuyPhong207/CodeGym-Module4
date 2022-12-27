@@ -1,5 +1,6 @@
-package com.example;
+package com.example.controller;
 
+import com.example.service.Calculator;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,19 +20,20 @@ public class CalculatorController {
     public String calculate(@RequestParam("number1") Integer num1,
                             @RequestParam("number2") Integer num2,
                             @RequestParam("math") String math, Model model) {
+        Calculator calculator = new Calculator();
         Integer result = null;
         switch (math) {
             case "+":
-                result = num1 + num2;
+                result = calculator.addition(num1, num2);
                 break;
             case "-":
-                result = num1 - num2;
+                result = calculator.subtraction(num1, num2);
                 break;
             case "*":
-                result = num1 * num2;
+                result = calculator.multiplication(num1, num2);
                 break;
             case "/":
-                result = num1 / num2;
+                result = calculator.division(num1, num2);
                 break;
         }
         model.addAttribute("result", result);
