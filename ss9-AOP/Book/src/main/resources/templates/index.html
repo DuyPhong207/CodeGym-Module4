@@ -10,8 +10,8 @@
     </div>
 </div>
 <p>
-    <a th:href="@{/product/create}">
-        Add new product
+    <a th:href="@{/book/create}">
+        Add new book
     </a>
 </p>
 <form style="width: 150px" action="/product/search" method="get">
@@ -23,30 +23,19 @@
     <tr>
         <th>Name</th>
         <th>Price</th>
-        <th>Description</th>
-        <th>Manufacture</th>
-        <th>Edit</th>
-        <th>Delete</th>
+        <th>Amount</th>
         <th>View</th>
     </tr>
     </thead>
     <tbody>
-    <tr th:each="row,rowStat : ${products}">
+    <tr th:each="row,rowStat : ${books}">
+        <td th:text="${row.getId()}"></td>
         <td th:text="${row.getName()}"></td>
-        <td th:text="${row.getPrice()}"></td>
-        <td th:text="${row.getProductDesc()}"></td>
-        <td th:text="${row.getManufacture()}"></td>
-        <td><a th:href="@{/product/{id}/edit(id=${row.getId()})}">edit</a></td>
-        <td><a th:href="@{/product/{id}/delete(id=${row.getId()})}">delete</a></td>
-        <td><a th:href="@{/product/{id}/view(id=${row.getId()})}">view</a></td>
+        <td th:text="${row.getAmount()}"></td>
+        <td><a th:href="@{/book/{id}/view(id=${row.getId()})}">view</a></td>
     </tr>
     </tbody>
 </table>
-<div style="width: 100%; text-align: center; padding-top: 16px">
-    <a style="text-decoration: none; font-size: 20px; font-weight: 600; border: 1px solid #000000" th:if="${products.hasPrevious()}" th:href="@{'/product'(page=${products.number - 1})}"> < </a>
-    <span style="padding: 0 4px" th:text="${products.number + 1}"></span>
-    <a style="text-decoration: none; font-size: 20px; font-weight: 600; border: 1px solid #000000" th:if="${products.hasNext()}" th:href="@{'/product'(page=${products.number + 1})}"> > </a>
-</div>
 <footer th:replace="/layout :: footer"></footer>
 </body>
 </html>

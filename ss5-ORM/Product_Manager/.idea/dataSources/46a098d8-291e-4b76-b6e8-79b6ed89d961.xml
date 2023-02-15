@@ -1009,52 +1009,52 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="292" parent="1" name="demo1">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="293" parent="1" name="demo_a0522i1">
+    <schema id="293" parent="1" name="final_module3">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="final_module3">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="295" parent="1" name="information_schema">
+    <schema id="294" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="296" parent="1" name="mysql">
+    <schema id="295" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="297" parent="1" name="performance_schema">
+    <schema id="296" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="298" parent="1" name="product_java_web">
+    <schema id="297" parent="1" name="product_java_web">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="299" parent="1" name="product_manager">
+    <schema id="298" parent="1" name="product_manager">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="300" parent="1" name="quanlybanhang">
+    <schema id="299" parent="1" name="quanlybanhang">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="301" parent="1" name="quanlyvattu">
+    <schema id="300" parent="1" name="quanlyvattu">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="302" parent="1" name="ss12">
+    <schema id="301" parent="1" name="ss12">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="303" parent="1" name="ss3_baitap">
+    <schema id="302" parent="1" name="ss3_baitap">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="304" parent="1" name="ss3_quanlysinhvien">
+    <schema id="303" parent="1" name="ss3_quanlysinhvien">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="305" parent="1" name="ss5-product-manager">
+    <schema id="304" parent="1" name="ss5-product-manager">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="306" parent="1" name="student_manager">
+    <schema id="305" parent="1" name="student_manager">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="307" parent="1" name="sys">
+    <schema id="306" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="308" parent="1" name="test">
+    <schema id="307" parent="1" name="test">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="308" parent="1" name="demo_a0522i1">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="309" parent="1" name="mysql.infoschema">
@@ -1076,7 +1076,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="313" parent="305" name="product">
+    <table id="313" parent="304" name="product">
       <Engine>MyISAM</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>

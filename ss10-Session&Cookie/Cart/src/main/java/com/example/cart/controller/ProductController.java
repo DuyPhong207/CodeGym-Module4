@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
@@ -19,21 +20,30 @@ public class ProductController {
     private IProductService iProductService;
 
     @ModelAttribute("cart")
-    public Map<Product, Integer> createCart() {
-        return (Map<Product, Integer>) new Cart();
+    public Cart createCart() {
+        return new Cart();
     }
 
     @GetMapping("/addProduct/{id}")
     public String addProduct(@PathVariable Integer id, @ModelAttribute("cart") Cart cart, Model model) {
         Product product = iProductService.findById(id);
         cart.addProduct(product);
-        model.addAttribute("cart", cart);
-        return "cart";
+        List<Product> products = cart.getListProductInCart();
+        model.addAttribute("products", products);
+        Integer totalPay = cart.totalPay();
+        model.addAttribute("totalPay", totalPay);
+        return "/cart";
     }
 
     @GetMapping("")
     public String showListProduct(Model model) {
         model.addAttribute("products", iProductService.findAll());
         return "/list-product";
+    }
+
+    @GetMapping("/view/{id}")
+    public String viewProduct(@PathVariable Integer id, Model model) {
+        model.addAttribute("product", iProductService.findById(id));
+        return "/detail-product";
     }
 }

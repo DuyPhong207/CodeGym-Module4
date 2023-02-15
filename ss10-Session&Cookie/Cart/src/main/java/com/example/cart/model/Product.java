@@ -12,6 +12,8 @@ public class Product {
 
     private String productDesc;
 
+    private Integer value = 0;
+
     public Product() {
     }
 
@@ -23,15 +25,24 @@ public class Product {
         this.productDesc = productDesc;
     }
 
-    public Product(Integer id, String name, Integer price, String productDesc) {
+    public Product(Integer id, String name, Integer price, String productDesc, Integer value) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.productDesc = productDesc;
+        this.value = value;
     }
 
     public Integer getId() {
         return id;
+    }
+
+    public Integer getValue() {
+        return value;
+    }
+
+    public void setValue(Integer value) {
+        this.value = value;
     }
 
     public void setId(Integer id) {

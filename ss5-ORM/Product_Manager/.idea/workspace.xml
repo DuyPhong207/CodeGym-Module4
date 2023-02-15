@@ -5,45 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d10744-eb4d-48af-b452-b979852e0b68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/CartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/test/java/com/example/cart/CartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/service/IGeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/java/com/example/demo/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/borrow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/java/com/example/cart/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/java/com/example/cart/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/detail-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/detail-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/list-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/list-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss3-Thymeleaf/Bt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3-Thymeleaf/Bt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/java/com/example/config/AppConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/java/com/example/config/AppInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/java/com/example/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/java/com/example/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/java/com/example/repository/impl/ProductRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/java/com/example/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/java/com/example/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise1/src/test/java/com/mysql/jdbc/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music-Apps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music-Apps/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46a098d8-291e-4b76-b6e8-79b6ed89d961.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46a098d8-291e-4b76-b6e8-79b6ed89d961.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/repository/IBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/repository/IBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/impl/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/impl/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,29 +131,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/CodeGym-Module4/ss5-ORM/Product_Manager/src/main/webapp/WEB-INF&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fb8464bd3e10893d7abc2d990e2a40e7&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/CodeGym-Module4/ss7-Spring-Data-Repository/Product-App",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.20689656",
+    "spring.configuration.checksum": "fb8464bd3e10893d7abc2d990e2a40e7"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\CodeGym-Module4\ss5-ORM\Product_Manager\src\main\webapp\WEB-INF" />
@@ -246,6 +273,19 @@
       <workItem from="1672421224488" duration="88000" />
       <workItem from="1672828593993" duration="1451000" />
       <workItem from="1672830112191" duration="1867000" />
+      <workItem from="1672832199844" duration="10000" />
+      <workItem from="1672832306407" duration="13000" />
+      <workItem from="1672832528476" duration="11000" />
+      <workItem from="1672833471107" duration="82000" />
+      <workItem from="1672834428210" duration="17000" />
+      <workItem from="1672834791740" duration="21000" />
+      <workItem from="1672902824552" duration="21000" />
+      <workItem from="1672923032984" duration="317000" />
+      <workItem from="1673006800430" duration="23000" />
+      <workItem from="1673006935175" duration="12000" />
+      <workItem from="1673007320630" duration="12000" />
+      <workItem from="1673009053679" duration="386000" />
+      <workItem from="1676442046310" duration="20000" />
     </task>
     <servers />
   </component>
@@ -265,16 +305,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/repository/impl/ProductRepositoryImpl.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

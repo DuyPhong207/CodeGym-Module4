@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="074d4c99-9a06-43dd-9f5c-8db6fae9c284" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/src/main/java/com/example/service/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/Bt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/Bt2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/demo/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss1-TongQuanSpringMVC/demo/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/src/main/java/com/example/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2-SpringContrller/Bt2/src/main/java/com/example/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss4-DataBinding&amp;Form/Bt1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/config/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/impl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/java/com/example/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/test/java/com/mysql/jdbc/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/test/java/com/mysql/jdbc/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5-ORM/Exercise1/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +190,13 @@
       <workItem from="1672062324044" duration="64000" />
       <workItem from="1672062434335" duration="95000" />
       <workItem from="1672152643856" duration="16000" />
+      <workItem from="1672158162758" duration="25000" />
+      <workItem from="1672326988322" duration="13000" />
+      <workItem from="1672327140019" duration="12000" />
+      <workItem from="1672327178129" duration="7000" />
+      <workItem from="1672327210342" duration="12000" />
+      <workItem from="1672327248598" duration="8000" />
+      <workItem from="1672327287184" duration="5000" />
     </task>
     <servers />
   </component>

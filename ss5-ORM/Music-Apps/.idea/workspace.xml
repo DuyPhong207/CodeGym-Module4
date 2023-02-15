@@ -5,31 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d0d5b5-c9d9-4601-b03f-a70ed9de6a49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/SongController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/SongRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/SongRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/SongService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/SongServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/java/com/example/validateform/ValidateFormApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/java/com/example/validateform/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/java/com/example/validateform/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/java/com/example/validateform/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/java/com/example/validateform/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/java/com/example/validateform/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss8-Validate/Validate-Form/src/test/java/com/example/validateform/ValidateFormApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss3-Thymeleaf/Bt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3-Thymeleaf/Bt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/musicapps/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Product_Manager/.idea/dataSources/46a098d8-291e-4b76-b6e8-79b6ed89d961.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product_Manager/.idea/dataSources/46a098d8-291e-4b76-b6e8-79b6ed89d961.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Product_Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product_Manager/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -82,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/CodeGym-Module4/ss5-ORM/Music-Apps/src/main/webapp/WEB-INF",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/CodeGym-Module4/ss5-ORM/Music-Apps",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -203,7 +197,9 @@
       <workItem from="1672832541233" duration="927000" />
       <workItem from="1672833555244" duration="870000" />
       <workItem from="1672834446584" duration="343000" />
-      <workItem from="1672834814127" duration="975000" />
+      <workItem from="1672834814127" duration="1170000" />
+      <workItem from="1672897559285" duration="615000" />
+      <workItem from="1675256095083" duration="185000" />
     </task>
     <servers />
   </component>

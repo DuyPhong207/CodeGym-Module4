@@ -4,29 +4,24 @@
 <body>
 <h3>Add Product</h3>
 <p>
-    <a th:href="@{/product}">
-        Back to product list
+    <a th:href="@{/book}">
+        Back to book list
     </a>
 </p>
 <div id="form">
-    <form th:action="@{/product/save}" th:object="${product}"
+    <form th:action="@{/book/save}" th:object="${book}"
           method="POST" novalidate="novalidate">
-        <input type="hidden" th:field="*{id}"/>
+        <div>
+            <label>ID</label>
+            <input type="text" th:field="*{id}"/>
+        </div>
         <div>
             <label>Name</label>
             <input type="text" th:field="*{name}"/>
         </div>
         <div>
-            <label>Price</label>
-            <input type="text" th:field="*{price}"/>
-        </div>
-        <div>
-            <label>Description</label>
-            <input type="text" th:field="*{productDesc}"/>
-        </div>
-        <div>
-            <label>Manufacture</label>
-            <input type="text" th:field="*{manufacture}"/>
+            <label>Amount</label>
+            <input type="text" th:field="*{amount}"/>
         </div>
         <input type="submit" value="Save"/>
     </form>

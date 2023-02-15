@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.TreeMap;
 
 @Service
@@ -38,12 +39,7 @@ public class BookService implements IBookService {
     }
 
     @Override
-    public Map<Book, Integer> mapBook() {
-        List<Book> books = iBookRepository.findAll();
-        Map<Book, Integer> bookMap = new TreeMap<>();
-        for (Book book : books) {
-            bookMap.put(book, book.getAmount());
-        }
-        return bookMap;
+    public Book findById(Integer id) {
+        return iBookRepository.findAllById(id);
     }
 }

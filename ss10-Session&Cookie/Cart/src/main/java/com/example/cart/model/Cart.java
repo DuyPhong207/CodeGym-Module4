@@ -1,6 +1,8 @@
 package com.example.cart.model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Cart {
@@ -57,5 +59,14 @@ public class Cart {
             pay += entry.getKey().getPrice() * entry.getValue();
         }
         return pay;
+    }
+
+    public List<Product> getListProductInCart() {
+        List<Product> productList = new ArrayList<>();
+        for (Map.Entry<Product, Integer> entry : this.products.entrySet()) {
+            entry.getKey().setValue(entry.getValue());
+            productList.add(entry.getKey());
+        }
+        return productList;
     }
 }
