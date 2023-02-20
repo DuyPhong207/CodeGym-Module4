@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+<h3>Edit Smartphone</h3>
+<p>
+    <a th:href="@{/smartphones/list}">
+        Back to smartphone list
+    </a>
+</p>
+<div id="form">
+    <form id="edit-smartphone" th:object="${smartphone}">
+        <table>
+            <tr>
+                <td>Producer:</td>
+                <td><input th:field="*{producer}" type="text" id="producerEdit" placeholder="producer"></td>
+            </tr>
+            <tr>
+                <td>Model:</td>
+                <td><input th:field="*{model}" type="text" id="modelEdit" placeholder="model"></td>
+            </tr>
+            <tr>
+                <td>Price:</td>
+                <td><input th:field="*{price}" type="text" id="priceEdit" placeholder="price"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Update" onclick="editSmartPhone()"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+<script src="/main.js"></script>
+</html>
