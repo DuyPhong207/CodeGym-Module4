@@ -28,6 +28,7 @@ function addNewSmartPhone() {
 
 function editSmartPhone() {
     //lay du lieu
+    let id = $('#idEdit').val();
     let producer = $('#producerEdit').val();
     let model = $('#modelEdit').val();
     let price = $('#priceEdit').val();
@@ -58,14 +59,16 @@ function successHandler() {
     $.ajax({
         type: "GET",
         //tên API
-        url: "/smartphones/list",
+        url: "/smartphones",
         //xử lý khi thành công
         success: function (data) {
+            console.log(data)
             // hien thi danh sach o day
             let content = '    <tr>\n' +
                 '        <td>Producer</td>\n' +
                 '        <td>Model</td>\n' +
                 '        <td>Price</td>\n' +
+                '        <td>Edit</td>\n' +
                 '        <td>Delete</td>\n' +
                 '    </tr>';
             for (let i = 0; i < data.length; i++) {

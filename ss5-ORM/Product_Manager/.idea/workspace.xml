@@ -5,72 +5,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d10744-eb4d-48af-b452-b979852e0b68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/CartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/repository/IProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/service/impl/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/resources/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/test/java/com/example/cart/CartApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/repository/ICustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/service/IGeneralService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/java/com/example/demo/service/impl/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss11-Webservice&amp;Restful/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/java/com/example/demo/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/borrow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/java/com/example/cart/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/java/com/example/cart/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/FuramaWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/controller/ContractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/controller/FacilityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/contract/AttachFacility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/contract/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/contract/ContractDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/customer/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/employee/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/employee/EducationDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/employee/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/facility/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/facility/FacilityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/facility/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/login/AppRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/login/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/model/login/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/repository/IContractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/repository/IEmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/repository/IFacilityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/IContractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/IFacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/impl/ContractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/impl/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/java/com/example/furamaweb/service/impl/FacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/main/resources/templates/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy/Furama-Web/src/test/java/com/example/furamaweb/FuramaWebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/model/AppRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/model/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/repository/IAppUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/repository/IUserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/ultil/EncrytedPasswordUltils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/src/main/java/com/example/demo/ultil/WebUltil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/CartApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/repository/IProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/java/com/example/cart/service/impl/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/main/resources/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart/src/test/java/com/example/cart/CartApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart_App/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart_App/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart_App/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10-Cookie&amp;Session/Cart_App/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/detail-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/detail-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/list-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10-Session&amp;Cookie/Cart/src/main/resources/templates/list-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss3-Thymeleaf/Bt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss3-Thymeleaf/Bt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Music-Apps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music-Apps/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46a098d8-291e-4b76-b6e8-79b6ed89d961.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46a098d8-291e-4b76-b6e8-79b6ed89d961.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/java/com/example/productapp/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7-Spring-Data-Repository/Product-App/src/main/resources/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/repository/IBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/repository/IBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/IBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/impl/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/java/com/example/book/service/impl/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss9-AOP/Book/src/main/resources/templates/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss12-Ajax/Lab/src/main/resources/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12-Ajax/Lab/src/main/resources/static/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss12-Ajax/Lab/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12-Ajax/Lab/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss14-Web-security/demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss14-Web-security/demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/java/com/example/demo/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss9-AOP-Spring/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,29 +159,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/CodeGym-Module4/ss7-Spring-Data-Repository/Product-App",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.20689656",
-    "spring.configuration.checksum": "fb8464bd3e10893d7abc2d990e2a40e7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/CodeGym-Module4/ss7-Spring-Data-Repository/Product-App&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fb8464bd3e10893d7abc2d990e2a40e7&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\CodeGym-Module4\ss5-ORM\Product_Manager\src\main\webapp\WEB-INF" />
@@ -286,6 +314,7 @@
       <workItem from="1673007320630" duration="12000" />
       <workItem from="1673009053679" duration="386000" />
       <workItem from="1676442046310" duration="20000" />
+      <workItem from="1677168308742" duration="38000" />
     </task>
     <servers />
   </component>
