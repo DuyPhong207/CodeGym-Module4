@@ -1,7 +1,8 @@
 package com.example.furamaweb.controller;
 
 import com.example.furamaweb.model.customer.Customer;
-import com.example.furamaweb.service.ICustomerService;
+import com.example.furamaweb.service.customer.ICustomerService;
+import com.example.furamaweb.service.customer.ICustomerTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,6 +18,9 @@ public class CustomerController {
     @Autowired
     private ICustomerService iCustomerService;
 
+    @Autowired
+    private ICustomerTypeService iCustomerTypeService;
+
     @GetMapping("")
     public String showList(Model model) {
         model.addAttribute("customers", iCustomerService.findAll());
@@ -25,6 +29,7 @@ public class CustomerController {
 
     @GetMapping("/create")
     public String showCreate(Model model) {
+        model.addAttribute("customerTypes", iCustomerTypeService.findAll());
         model.addAttribute("customer", new Customer());
         return "/customer/create";
     }
@@ -38,6 +43,7 @@ public class CustomerController {
 
     @GetMapping("/edit/{id}")
     public String edit(@PathVariable Integer id, Model model) {
+        model.addAttribute("customers", iCustomerService.findAll());
         model.addAttribute("customer", iCustomerService.findById(id));
         return "/customer/edit";
     }

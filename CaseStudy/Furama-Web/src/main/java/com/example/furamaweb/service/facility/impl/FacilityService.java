@@ -1,8 +1,8 @@
-package com.example.furamaweb.service.impl;
+package com.example.furamaweb.service.facility.impl;
 
 import com.example.furamaweb.model.facility.Facility;
-import com.example.furamaweb.repository.IFacilityRepository;
-import com.example.furamaweb.service.IFacilityService;
+import com.example.furamaweb.repository.facility.IFacilityRepository;
+import com.example.furamaweb.service.facility.IFacilityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
-package com.example.furamaweb.service.impl;
+package com.example.furamaweb.service.employee.impl;
 
 import com.example.furamaweb.model.employee.Employee;
-import com.example.furamaweb.repository.IEmployeeRepository;
-import com.example.furamaweb.service.IEmployeeService;
+import com.example.furamaweb.repository.employee.IEmployeeRepository;
+import com.example.furamaweb.service.employee.IEmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

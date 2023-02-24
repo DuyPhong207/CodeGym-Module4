@@ -1,4 +1,4 @@
-package com.example.furamaweb.repository;
+package com.example.furamaweb.repository.contract;
 
 import com.example.furamaweb.model.contract.Contract;
 import org.springframework.data.jpa.repository.JpaRepository;

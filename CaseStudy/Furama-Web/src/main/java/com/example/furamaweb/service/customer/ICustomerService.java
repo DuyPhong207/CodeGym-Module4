@@ -1,4 +1,4 @@
-package com.example.furamaweb.service;
+package com.example.furamaweb.service.customer;
 
 import com.example.furamaweb.model.customer.Customer;
 

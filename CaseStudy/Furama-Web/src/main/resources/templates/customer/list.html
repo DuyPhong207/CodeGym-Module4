@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-
+<table id = "customers">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Date Of Birth</th>
+        <th>Gender</th>
+        <th>ID Card</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Customer Type</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        <th>View</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="customer : ${customers}">
+        <td th:text="${customer.name}"></td>
+        <td th:text="${customer.dateOfBirth}"></td>
+        <td th:text="${customer.gender}"></td>
+        <td th:text="${customer.idCard}"></td>
+        <td th:text="${customer.phone}"></td>
+        <td th:text="${customer.email}"></td>
+        <td th:text="${customer.address}"></td>
+        <td th:text="${customer.customerType.name}"></td>
+        <td th:text="${}"></td>
+        <td><a th:href="@{/customer/edit/{id}(id=${customer.id})}">edit</a></td>
+        <td><a th:href="@{/customer/edit/{id}(id=${customer.id})}">delete</a></td>
+        <td><a th:href="@{/customer/edit/{id}(id=${customer.id})}">view</a></td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>

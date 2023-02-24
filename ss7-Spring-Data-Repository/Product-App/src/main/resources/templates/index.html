@@ -42,11 +42,11 @@
     </tr>
     </tbody>
 </table>
-<div style="width: 100%; text-align: center; padding-top: 16px">
-    <a style="text-decoration: none; font-size: 20px; font-weight: 600; border: 1px solid #000000" th:if="${products.hasPrevious()}" th:href="@{'/product'(page=${products.number - 1})}"> < </a>
-    <span style="padding: 0 4px" th:text="${products.number + 1}"></span>
-    <a style="text-decoration: none; font-size: 20px; font-weight: 600; border: 1px solid #000000" th:if="${products.hasNext()}" th:href="@{'/product'(page=${products.number + 1})}"> > </a>
-</div>
+<!--<div style="width: 100%; text-align: center; padding-top: 16px">-->
+<!--    <a style="text-decoration: none; font-size: 20px; font-weight: 600; border: 1px solid #000000" th:if="${products.hasPrevious()}" th:href="@{'/product'(page=${products.number - 1})}"> < </a>-->
+<!--    <span style="padding: 0 4px" th:text="${products.number + 1}"></span>-->
+<!--    <a style="text-decoration: none; font-size: 20px; font-weight: 600; border: 1px solid #000000" th:if="${products.hasNext()}" th:href="@{'/product'(page=${products.number + 1})}"> > </a>-->
+<!--</div>-->
 <footer th:replace="/layout :: footer"></footer>
 </body>
 </html>

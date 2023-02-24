@@ -1,4 +1,4 @@
-package com.example.furamaweb.service;
+package com.example.furamaweb.service.facility;
 
 import com.example.furamaweb.model.customer.Customer;
 import com.example.furamaweb.model.employee.Employee;

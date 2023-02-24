@@ -1,8 +1,8 @@
-package com.example.furamaweb.service.impl;
+package com.example.furamaweb.service.contract.impl;
 
 import com.example.furamaweb.model.contract.Contract;
-import com.example.furamaweb.repository.IContractRepository;
-import com.example.furamaweb.service.IContractService;
+import com.example.furamaweb.repository.contract.IContractRepository;
+import com.example.furamaweb.service.contract.IContractService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
